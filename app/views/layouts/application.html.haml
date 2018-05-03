@@ -2,7 +2,7 @@
 %html{:lang => "en"}
 %head
   %meta{:charset => "UTF-8"}/
-  %title FileCabinet | Your life's work!
+  %title JustDocs | Place for your Docs
   = csrf_meta_tags
   = csp_meta_tag
   = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
@@ -11,7 +11,7 @@
 %body
   %header
     .header_inner
-      = link_to "FileCabinet", root_path, id: "logo"
+      = link_to "JustDocs", root_path, id: "logo"
       %nav
         - if user_signed_in?
           = link_to "Create Doc", new_doc_path
