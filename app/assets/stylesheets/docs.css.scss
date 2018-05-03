@@ -1,8 +1,8 @@
    // DOCS INDEX
 
-   #docs {
+#docs {
 	.doc {
-		background: #78594B;
+		background: #327a4c;
 		width: 90%;
 		min-height: 100px;
 		margin: 1rem 1%;
@@ -60,11 +60,11 @@
 		margin-top: 3rem;
 		text-align: center;
 		a.button {
-			padding: .2rem 1.5rem;
-			border-radius: 0.1rem;
+			padding: .2rem 1rem;
+			border-radius: 0rem;
 			text-decoration: none;
-			color: #529ECC;
-			border: 5px solid #529ECC;
+			color: $green;
+			border: 5px solid $green;
 			@include bold_font;
 			background: transparent;
 		}

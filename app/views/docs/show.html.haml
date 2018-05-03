@@ -1,7 +1,7 @@
 .wrapper_with_padding
 	#doc_show
 		%h1= @doc.title
-		%p= @doc.content
+		%p= sanitize markdown_to_html(@doc.content)
 		
 		.buttons
 			= link_to "Fix Doc", edit_doc_path(@doc), class: "button"
